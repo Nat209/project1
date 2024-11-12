@@ -1,0 +1,31 @@
+<div class="container">
+    <h1>{{tittle}}</h1>
+    <form action="">
+
+        <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" #tname>
+        </div>
+
+        <div class="mb-3">
+            <label for="Age" class="form-label">Age</label>
+            <input type="string" class="form-control" id="Age" #tage>
+        </div>
+
+        <div class="mb-3">
+            <label for="Curso" class="form-label">Course</label>
+            <select class="form-select" id="Curso" #tcourse>
+                <option selected>Seleccionar un curso</option>
+                <option [value]="item" *ngFor="let item of getCourses()">{{item}}</option>
+              </select>
+        </div>
+        <div class="col-12">
+            <button type="button" class="btn btn-info" (click)="getRegisterCourse(tname.value ,tage.value ,tcourse.value)">Enviar</button>
+        </div>
+        <div *ngIf="getResponse() !=''" class="alert alert-warning">
+            {{getResponse()}}
+        </div>
+
+    </form>
+
+</div>
