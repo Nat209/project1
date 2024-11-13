@@ -1,0 +1,113 @@
+/* Estilos generales para la sección de contacto */
+.contact {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+
+.contact .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact .section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.contact .section-description {
+    font-size: 1.1rem;
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto 30px;
+}
+
+/* Estilos para el formulario */
+form .form-group {
+    margin-bottom: 20px;
+}
+
+form .form-group label {
+    font-size: 1rem;
+    color: #333;
+}
+
+form .form-control {
+    font-size: 1rem;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 100%;
+}
+
+form .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25);
+}
+
+form .btn {
+    background-color: #007bff;
+    color: white;
+    font-size: 1.1rem;
+    padding: 12px 20px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+}
+
+form .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para la información de contacto */
+.contact-info {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h4 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.contact-info p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.contact-info .social-icons {
+    margin-top: 20px;
+}
+
+.contact-info .social-icon {
+    font-size: 1.5rem;
+    color: #333;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+}
+
+.contact-info .social-icon:hover {
+    color: #007bff;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .contact .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .contact .row {
+        flex-direction: column;
+    }
+
+    .contact .col-md-6 {
+        width: 100%;
+    }
+}

@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-color: #f9f9f9;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo h1 {
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: #2e098d;
+  }
+  
+  .nav-links ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: color 0.3s;
+  }
+  
+  .nav-links ul li a:hover {
+    color: #61A8F2;
+  }
+  
+  .cta .btn-inscribirse {
+    background-color: #61A8F2;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: background-color 0.3s;
+  }
+  
+  .cta .btn-inscribirse:hover {
+    background-color: #4a90e2;
+  }
+  
