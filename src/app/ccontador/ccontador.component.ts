@@ -7,19 +7,19 @@ import { Component } from '@angular/core';
 })
 export class CcontadorComponent {
 
-  counter:number=10;
+  counter:number=0;
 
   handleCounter(value:number){
     this.counter=value;
   }
 
-  // increment():void{
-  //   this.counter++;
-  // }
+  increment():void{
+    this.counter++;
+  }
 
-  // decrement():void{
-  //   this.counter--;
-  // }
+  decrement():void{
+    this.counter--;
+  }
 
 
 }
