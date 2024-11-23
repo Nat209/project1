@@ -1,5 +1,5 @@
-<div class="container" id="registar-curso">
-    <h1>{{tittle}}</h1>
+<div class="container-form" id="registar-curso">
+    <h1 class="se">{{tittle}}</h1>
     <form action="">
 
         <div class="mb-3">
@@ -11,6 +11,11 @@
             <label for="Age" class="form-label">Age</label>
             <input type="string" class="form-control" id="Age" #tage>
         </div>
+        <div class="mb-3">
+            <label for="dir" class="form-label">Adress:</label>
+            <input type="text" class="form-control" name="dir" [(ngModel)]="dir">
+            <p>{{dir}}</p>
+          </div>
 
         <div class="mb-3">
             <label for="Curso" class="form-label">Course</label>

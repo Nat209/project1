@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class CfooterComponent {
 
+  public texto:string="Cursos especializados en desarrollo web, programación y diseño, para que lleves tus habilidades al siguiente nivel."
+  public copy:string="<p>&copy; 2024 Métricas de calidad.Natalia Castro. Todos los derechos reservados.</p>"
+
 }

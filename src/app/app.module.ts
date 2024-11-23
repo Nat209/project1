@@ -11,6 +11,11 @@ import { FormsModule } from '@angular/forms';
 import { CaboutUsComponent } from './cabout-us/cabout-us.component';
 import { CcontactComponent } from './ccontact/ccontact.component';
 import { ClistCoursesComponent } from './clist-courses/clist-courses.component';
+import { CcontadorComponent } from './ccontador/ccontador.component';
+import { ChomeComponent } from './chome/chome.component';
+import { CaddComponent } from './ccontador/cadd/cadd.component';
+import { CminComponent } from './ccontador/cmin/cmin.component';
+;
 
 @NgModule({
   declarations: [
@@ -21,7 +26,11 @@ import { ClistCoursesComponent } from './clist-courses/clist-courses.component';
     CcourseComponent,
     CaboutUsComponent,
     CcontactComponent,
-    ClistCoursesComponent
+    ClistCoursesComponent,
+    CcontadorComponent,
+    ChomeComponent,
+    CaddComponent,
+    CminComponent
   ],
   imports: [
     BrowserModule,

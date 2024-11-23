@@ -8,9 +8,10 @@ import { Component } from '@angular/core';
 export class CcourseComponent {
 //declaracion de propiedades, atributos o variables
  private courses!:string[];
- private response:string|boolean; //Union de tipos 
+ private response:string|boolean; //Union de tipos
+ dir:string="Unimepresarial";
 
- tittle:string="FORMULARIO DE REGISTRO"
+ tittle:string="Formulario de registro"
 
 constructor(){
   this.courses=['JAVA', 'JAVASCRIPT', 'PYTHON'];
